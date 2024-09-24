@@ -1,0 +1,30 @@
+.table-container {
+  justify-items: center;
+  height: "100vh";
+  text-align: right;
+  padding-right: 50px;
+  height: 100vh;
+}
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.nguoidung-them {
+  float: right; /* Căn sang phải */
+  display: flex;
+  background-color: rgb(121, 121, 253);
+}
+.menu-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* Hoặc chiều rộng bạn muốn */
+  z-index: 1000; /* Đảm bảo menu nằm trên các phần tử khác */
+  background-color: white; /* Tùy chỉnh theo giao diện */
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* Tạo bóng cho menu nếu cần */
+}
+/* .right-align-menu {
+  display: flex;
+  justify-content: right;
+} */
